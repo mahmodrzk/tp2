@@ -5,9 +5,9 @@ import java.util.List;
 import jakarta.inject.Named;
 import jakarta.enterprise.context.RequestScoped;
 
-@Named(value = "bean")
+@Named(value = "bean2")
 @RequestScoped
-public class Bean {
+public class Bean2 {
 
     private int nombre;
 
